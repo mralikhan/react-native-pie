@@ -281,7 +281,7 @@ const Pie = ({
 
   return (
     <Svg width={validRadius * 2} height={validRadius * 2}>
-      <G rotation={-90} origin={`${validRadius}, ${validRadius}`}>
+      <G rotation={0} origin={`${validRadius}, ${validRadius}`}>
         <Background dimensions={dimensions} color={backgroundColor} />
         <Sections
           dimensions={dimensions}
